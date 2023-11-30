@@ -9,10 +9,10 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "cors": "^2.8.5",
     "express": "^4.18.2",
-    "mongoose": "^8.0.1"
-  },
-  "devDependencies": {
-    "nodemon": "^3.0.1"
+    "mongoose": "^8.0.1",
+    "simple-encryptor": "^4.0.0",
+    "validator": "^13.11.0"
   }
 }
