@@ -22,7 +22,7 @@ app.listen(3008,function check(error){
 
 
 
-mongoose.connect('mongodb://127.0.0.1:27017/estore');
+mongoose.connect('mongodb://127.0.0.1:27017/Hmart');
 const db = mongoose.connection;
 db.on('error', (err) => {
     console.log('Failed to connect with db');
